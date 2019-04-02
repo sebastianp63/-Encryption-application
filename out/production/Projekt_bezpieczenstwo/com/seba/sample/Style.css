@@ -1,0 +1,185 @@
+.btnCesar{
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 15px;
+     -fx-font-family: "Helvetica";
+     -fx-font-weight: bold;
+     -fx-padding: 10 20 10 20;
+     -fx-background-radius: 20px;
+     -fx-background-color: #00ddfa ;
+     -fx-border-color: #004f80;
+     -fx-border-width: 6px;
+     -fx-border-radius: 9px;
+     -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+     }
+
+.btnCesar:hover{
+      -fx-background-color: #004f80;
+      -fx-effect: dropshadow(two-pass-box ,rgba(0,0,0,0.34), 6.0 ,0.0 ,7px ,5px);
+}
+
+.btnVinegere{
+      -fx-text-fill: #FFFFFF;
+      -fx-font-size: 15px;
+      -fx-font-family: "Helvetica";
+      -fx-font-weight: bold;
+
+      -fx-padding: 10 20 10 20;
+      -fx-background-radius: 20px;
+      -fx-background-color: #d93455;
+      -fx-border-color: #850016;
+      -fx-border-width: 6px;
+      -fx-border-radius: 9px;
+      -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+}
+.btnVinegere:hover{
+      -fx-background-color: #850016;
+      -fx-effect: dropshadow(two-pass-box ,rgba(0,0,0,0.34), 6.0 ,0.0 ,7px ,5px);
+ }
+
+.btnBeuforta{
+      -fx-text-fill: #FFFFFF;
+      -fx-font-size: 15px;
+      -fx-font-family: "Helvetica";
+      -fx-font-weight: bold;
+      -fx-padding: 10 15 10 15;
+      -fx-background-radius: 13px;
+      -fx-background-color: #2bdb1b;
+      -fx-border-color: #076615;
+      -fx-border-width: 6px;
+      -fx-border-radius: 9px;
+      -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+}
+.btnBeuforta:hover{
+      -fx-background-color: #076615;
+      -fx-effect: dropshadow(two-pass-box ,rgba(0,0,0,0.34), 6.0 ,0.0 ,7px ,5px);
+
+ }
+
+.btnBack{
+      -fx-text-fill: #FFFFFF;
+      -fx-font-size: 15px;
+      -fx-font-family: "Helvetica";
+      -fx-font-weight: bold;
+      -fx-text-align: center;
+      -fx-background-radius: 20px;
+      -fx-background-color: #000000;
+      -fx-border-radius: 20px;
+}
+.btnBack:hover{
+    -fx-effect: dropshadow(two-pass-box ,rgba(0,0,0,0.34), 6.0 ,0.0 ,5px ,3px);
+}
+
+.btnDevice{
+
+    -fx-size: 20px;
+    -fx-border-radius: 80px;
+    -fx-background-radius: 360px;
+
+      /*
+    -fx-background-radius: 220px;
+    -fx-padding: 44 60 39 40;
+    -fx-background-position: center;
+    -fx-background-insets: 0,0 0 0 0, 0 0 0 0, 0 0 0 0;
+    -fx-border-width: 4px;
+    -fx-border-color: #000000;
+     -fx-border-radius: 60px;
+     */
+}
+
+.btnDevice:hover{
+    -fx-effect: dropshadow(two-pass-box ,rgba(0,0,0,0.34), 6.0 ,0.0 ,5px ,3px);
+
+
+
+}
+.root{
+    -fx-background-color: #696969;
+}
+
+.btnEncrypt {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.btnEncrypt:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+.btnEncrypt:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.btnEncrypt Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+
+.btnSend {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #3366ff 0%, #004b66 100%),
+        #3333ff,
+        #3399ff,
+        radial-gradient(center 50% 50%, radius 100%, #3366ff, #0086b3);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.btnSend:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #3366ff 0%, #004b66 100%),
+        #3333ff,
+        #3399ff,
+        radial-gradient(center 50% 50%, radius 100%, #1ac2ff,#0086b3);
+}
+.btnSend:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.btnSend Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+.text-field {
+    -fx-background-color:
+        #FFFFFF,
+        #FFFFFF;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 1, 5;
+
+ }
+
+.text-field:focused {
+    -fx-background-color:
+        #0093EF,
+        #FFFFFF;
+}
+
+.text-field:hover {
+    -fx-background-color:
+        #696969,
+        #FFFFFF;
+}
+
+.text-field:focused:hover {
+    -fx-background-color:
+        #696969,
+        #FFFFFF;
+}
+
+
